@@ -1,0 +1,5 @@
+modules:
+  - type: shell
+    commands:
+      - curl -fsSL https://tailscale.com/install.sh | sh
+      - systemctl enable tailscaled
